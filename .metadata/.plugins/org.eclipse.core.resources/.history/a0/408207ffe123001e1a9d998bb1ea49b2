@@ -1,0 +1,45 @@
+package com.masai.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.masai.exception.CustomerException;
+import com.masai.model.Customer;
+import com.masai.repository.CustomerRepository;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+	
+	
+	@Autowired
+	private CustomerRepository customerRepository;
+	
+	
+	@Override
+	public Customer addCustomer(Customer customer) throws CustomerException{
+		
+    return 	customerRepository.save(customer);	
+		
+	}
+
+
+	@Override
+	public Customer getCustomerByEmail(String email) throws CustomerException {
+		
+		return customerRepository.findByEmail(email).orElseThrow();
+		
+	}
+
+
+	@Override
+	public List<Customer> getAllCustomer() throws CustomerException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+
+}

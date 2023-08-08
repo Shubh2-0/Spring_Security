@@ -1,0 +1,23 @@
+package com.masai.model;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Entity
+@Data
+public class Customer {
+
+	private Integer Id;
+	
+	private String name;
+
+	private String email;
+	
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	private String password;
+	
+	private String address;
+	
+}
