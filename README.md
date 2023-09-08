@@ -145,6 +145,10 @@ Immerse yourself in the world of live sessions and real-time authentication and 
  </tr>
 </table>
 
+
+Feel free to embark on your journey through these projects, explore their dedicated READMEs for detailed instructions, and contribute to the ever-evolving realm of Spring Security. We're here to support your quest for robust application security. 🚀🔐🌟🛠️
+
+
 ## 📬 Contact
 
 If you want to contact me, you can reach me through below handles.
@@ -156,4 +160,3 @@ If you want to contact me, you can reach me through below handles.
  </p>
 
 
-Feel free to embark on your journey through these projects, explore their dedicated READMEs for detailed instructions, and contribute to the ever-evolving realm of Spring Security. We're here to support your quest for robust application security. 🚀🔐🌟🛠️
