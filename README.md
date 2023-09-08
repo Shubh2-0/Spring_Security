@@ -22,6 +22,9 @@ Spring_Security_1 serves as the cornerstone of our repository. It is your starti
 
 Dive into the realm of secure authentication without JWT (JSON Web Tokens). This project demonstrates how to authenticate users using Spring Security, shedding light on the foundation of user access control.
 
+![Alt Text](https://imgs.search.brave.com/xDXLOEJ5ugWpqJlPNve1Hk9RSjULpZpEXorF8Mq9fl8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudG9wdGFsLmlv/L2ltYWdlcz91cmw9/aHR0cHM6Ly91cGxv/YWRzLnRvcHRhbC5p/by9ibG9nL2ltYWdl/LzEyNTU1My90b3B0/YWwtYmxvZy1pbWFn/ZS0xNTIwMjQ3MzQw/NDEyLWRjNmNmZDNl/Nzc2MGVhOWE4ZDc1/YThmOWQwYjkzYTc3/LnBuZw)
+
+
 ---
 
 ## Spring_Security_JWT_With_Role/SpringSecurityJwtWithRole 🌟
