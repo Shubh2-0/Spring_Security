@@ -128,6 +128,8 @@ Immerse yourself in the world of live sessions and real-time authentication and 
       <img src="https://imgs.search.brave.com/_WwEvOJNpeZ-lj6k6H0y-xs6DAIXgMDVzY7depwrySQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9qd3Qu/aW8vaW1nL3BpY19s/b2dvLnN2Zw.svg" width="45" height="45" alt="ss" />
       <br>JWT
     </td>
+  </tr>
+  <tr>
     <td align="center" width="170">
       <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/postman.png" width="45" height="45" alt="pm" />
       <br>Postman
@@ -140,8 +142,7 @@ Immerse yourself in the world of live sessions and real-time authentication and 
       <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/github.png" width="45" height="45" alt="github" />
       <br>Github
     </td>
-  </tr>
- 
+ </tr>
 </table>
 
 
