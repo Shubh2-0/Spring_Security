@@ -107,4 +107,42 @@ Immerse yourself in the world of live sessions and real-time authentication and 
 
 ---
 
+
+## Tools Used 🛠️
+
+<table align="center">
+  <tr>
+    <td align="center" width="170">
+      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/java.png" width="48" height="48" alt="Java" />
+      <br>Java 
+    </td>
+    <td align="center" width="170">
+      <img src="https://github.com/Shubh2-0/WorkFolio/blob/main/README_IMAGES/springb.png" width="45" height="45" alt="sp" />
+      <br>Spring Boot
+    </td>
+    <td align="center" width="170">
+      <img src="https://github.com/Shubh2-0/WorkFolio/blob/main/README_IMAGES/springsecutity.png" width="45" height="45" alt="ss" />
+      <br>Spring Security
+    </td>
+    <td align="center" width="170">
+      <img src="https://imgs.search.brave.com/_WwEvOJNpeZ-lj6k6H0y-xs6DAIXgMDVzY7depwrySQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9qd3Qu/aW8vaW1nL3BpY19s/b2dvLnN2Zw.svg" width="45" height="45" alt="ss" />
+      <br>JWT
+    </td>
+    <td align="center" width="170">
+      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/postman.png" width="45" height="45" alt="pm" />
+      <br>Postman
+    </td>
+    <td align="center" width="170">
+      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/spring.png" width="45" height="45" alt="st" />
+      <br>STS
+    </td>
+    <td align="center" width="170">
+      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/github.png" width="45" height="45" alt="github" />
+      <br>Github
+    </td>
+  </tr>
+ 
+</table>
+
+
 Feel free to embark on your journey through these projects, explore their dedicated READMEs for detailed instructions, and contribute to the ever-evolving realm of Spring Security. We're here to support your quest for robust application security. 🚀🔐🌟🛠️
