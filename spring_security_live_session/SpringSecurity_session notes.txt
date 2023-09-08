@@ -1,0 +1,69 @@
+10:57 pm
+
+--there is a filter called "UsernamePasswordAuthernticationFilter" which will extract the username and password from the user request and build the "Authentication" object.
+
+--here Authentication is an interface and its implementation class name is "UsernamePasswordAuthenticationToken".
+
+--after creating the object of Authentication, this filter will call a method of AuthenticationManager(I)
+called:
+
+Authentication authenticate(Authentication auth);
+
+--here AuthenticationManager is an interface and the implementation class name is "ProviderManager"
+
+--this authenticate(-) method will check with variaous supported AuthenticationProviders and then this authenticate(-) method will call another
+
+Authentication authenticate(Authentication auth);
+method on the implementation of appropriate AuthenticationProvider.
+
+--the default implementation of AuthenticationProvider is DAOAuthenticationProvider.
+
+Note: we can define our own AuthenticationProvider implementation also.
+
+
+--this Default DAOAuthenticationProvider will take the help of UserDetailsService.
+
+--inside the UserDetailsService interface, there is only one abstract method called:
+
+UserDetails loadUserByUsername(String username);
+
+--we can implement this interface and return the UserDetails object based on our requirement.
+
+--By default Spring Security f/w has provided an implementation class of this UserDetailService interface 
+which is "InMemoryUserDetailsService"
+
+Spring Security has provided the implementation of UserDetails interface also, the name of this implementation class is "User"
+
+--developer can implement this UserDetails interface and customize this User details object also.
+
+
+--Once AuthenticationManager will get the Authentication object after sucessfull authentication then AM will populate the Principle object inside this Authentication object and keep this Authentication object inside the SecurityContext object.
+
+Principle object will represent the Authenticated User.
+
+
+
+BasicAuthenticationFilter:
+--------------------------------
+
+this filter is responsible for processing any request that has a HTTP request header of Authorization with an authentication scheme of Basic and a Base64-encoded username:password token. For example, to authenticate user "bob" with password "1234" the following header would be presented:
+
+ Authorization: Basic QWxhZGRpbjpvcGVuIHNlJHSKJJD
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
