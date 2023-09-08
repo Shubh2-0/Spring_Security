@@ -1,7 +1,0 @@
-package com.masai.service;
-
-import org.springframework.security.core.userdetails.UserDetailsService;
-
-public class CustomerUserDetailsService implements UserDetailsService {
-
-}
