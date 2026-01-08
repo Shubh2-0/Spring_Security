@@ -1,172 +1,223 @@
-# Spring Security Repository 🛡️
+<div align="center">
 
-Welcome to the Spring Security Repository! This repository houses a diverse array of projects, each meticulously designed to delve into various facets of authentication and authorization. Our goal is to empower you with comprehensive knowledge and practical examples of Spring Security. Explore these projects, and let's secure your applications together! 🚀
+# 🛡️ Spring Security Learning Hub
 
-![Alt Text](https://github.com/Shubh2-0/WorkFolio/blob/main/README_IMAGES/springsecutity.png)
+[![GitHub stars](https://img.shields.io/github/stars/Shubh2-0/Spring_Security?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shubh2-0/Spring_Security/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shubh2-0/Spring_Security?style=for-the-badge&logo=github&color=blue)](https://github.com/Shubh2-0/Spring_Security/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Shubh2-0/Spring_Security?style=for-the-badge&logo=github&color=red)](https://github.com/Shubh2-0/Spring_Security/issues)
 
+<img src="https://www.javainuse.com/boot-36-3-min.JPG" alt="Spring Security" width="500"/>
 
+### Master Application Security with Spring Security
 
----
+*Complete collection of authentication and authorization implementations - from basic to JWT*
 
-## Spring_Security_1 🚀
+[Explore Projects](#-projects) · [Get Started](#-getting-started) · [Learn Security](#-security-concepts)
 
-**Project Description:**
-
-Spring_Security_1 serves as the cornerstone of our repository. It is your starting point for exploring the intricate world of Spring Security. With this project, you'll gain insights into the fundamentals of securing your applications.
-
----
-
-## Spring_Security_AuthProvider_Without_JWT/SpringSecurityAuthProviderWithoutJwt 🔒
-
-**Project Description:**
-
-Dive into the realm of secure authentication without JWT (JSON Web Tokens). This project demonstrates how to authenticate users using Spring Security, shedding light on the foundation of user access control.
-
-![Alt Text](https://imgs.search.brave.com/xDXLOEJ5ugWpqJlPNve1Hk9RSjULpZpEXorF8Mq9fl8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudG9wdGFsLmlv/L2ltYWdlcz91cmw9/aHR0cHM6Ly91cGxv/YWRzLnRvcHRhbC5p/by9ibG9nL2ltYWdl/LzEyNTU1My90b3B0/YWwtYmxvZy1pbWFn/ZS0xNTIwMjQ3MzQw/NDEyLWRjNmNmZDNl/Nzc2MGVhOWE4ZDc1/YThmOWQwYjkzYTc3/LnBuZw)
-
+</div>
 
 ---
 
-## Spring_Security_JWT_With_Role/SpringSecurityJwtWithRole 🌟
+## 📖 Table of Contents
 
-**Project Description:**
-
-Unlock the power of JWT (JSON Web Tokens) in Spring Security! Learn how to integrate JWT-based authentication into your applications and implement role-based authorization for finer-grained access control.
-
----
-
-## Spring_Security_With_CustomAthenticationProvider 🛠️
-
-**Project Description:**
-
-Harness the flexibility of Spring Security by creating custom authentication providers. This project guides you through the process, enabling you to tailor authentication mechanisms to your specific needs.
+- [About](#-about)
+- [Projects](#-projects)
+- [Security Concepts](#-security-concepts)
+- [Technologies](#-technologies)
+- [Getting Started](#-getting-started)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
 ---
 
-## Spring_Security_With_JWT 🔐
+## 🎯 About
 
-**Project Description:**
+This repository is your **one-stop destination** for mastering **Spring Security**. It contains multiple projects demonstrating various authentication and authorization techniques, from basic form login to JWT-based stateless authentication with role-based access control.
 
-Delve deeper into JWT-based security with this project. Understand the inner workings of JWTs and how they can be used effectively within Spring Security to safeguard your applications.
+### What You'll Master
 
----
-
-## Spring_Security_With_JWT2/SpringSecurityWithJwt 🌐
-
-**Project Description:**
-
-Explore an alternative implementation of Spring Security with JWT (JSON Web Tokens). This project offers a fresh perspective on securing your applications, providing valuable insights into different approaches.
+- 🔐 **Authentication** - Form login, HTTP Basic, JWT tokens
+- 🎫 **Authorization** - Role-based access control (RBAC)
+- 🔑 **JWT Integration** - Stateless authentication
+- 🌐 **CORS Handling** - Cross-Origin Resource Sharing
+- ⚙️ **Custom Providers** - Build your own authentication logic
 
 ---
 
-## Spring_Security_With_JWT2_And_Role 🚀🔑
+## 📁 Projects
 
-**Project Description:**
-
-Building on the JWT foundation, this project extends the concept to role-based authorization. Learn how to fine-tune access control by assigning roles to users, ensuring a robust security strategy.
-
----
-
-## Spring_Security_With_JWT_Cors/SpringSecurityWithJwtCors 🌐🔗
-
-**Project Description:**
-
-Navigate the complexities of Cross-Origin Resource Sharing (CORS) while using Spring Security with JWT. Gain the expertise to handle cross-domain requests securely and seamlessly.
-
----
-
-## Spring_Security_With_Simple_Role_JWT2/SpringSecurityWithSimpleRoleJwt2 🔑🌟
-
-**Project Description:**
-
-Simplify your Spring Security implementation with a focus on role-based authentication using JWT. This project streamlines the process, making it easier to manage user access.
+| Project | Description | Key Concepts |
+|---------|-------------|--------------|
+| **Spring_Security_1** | Foundation project | Basic security configuration |
+| **SpringSecurityAuthProviderWithoutJwt** | Authentication without JWT | Custom auth providers |
+| **SpringSecurityJwtWithRole** | JWT + Role Authorization | Token-based RBAC |
+| **Spring_Security_With_CustomAuthProvider** | Custom authentication | Provider customization |
+| **SpringSecurityWithJwt** | JWT implementation | Token generation & validation |
+| **SpringSecurityWithJwt2** | Alternative JWT approach | Different JWT strategies |
+| **Spring_Security_With_JWT2_And_Role** | JWT + Extended roles | Fine-grained access |
+| **SpringSecurityWithJwtCors** | JWT + CORS handling | Cross-domain security |
+| **SpringSecurityWithSimpleRoleJwt2** | Simplified role-JWT | Streamlined implementation |
+| **SpringSecurityWithoutJwt** | Traditional security | Session-based auth |
+| **SpringSecurityWithoutJwt2** | Alternative non-JWT | Different session approaches |
 
 ---
 
-## Spring_Security_Without_JWT 🚫🔒
+## 🔒 Security Concepts
 
-**Project Description:**
+### Authentication Flow
 
-Not all security scenarios require JWT. Explore Spring Security without JWT, understanding the principles and techniques to protect your applications through alternative means.
+```
+┌─────────────────┐    Credentials    ┌──────────────────┐
+│     Client      │ ───────────────► │  AuthController  │
+└─────────────────┘                   └────────┬─────────┘
+                                               │
+                                               ▼
+                                    ┌──────────────────────┐
+                                    │  AuthenticationMgr   │
+                                    └────────┬─────────────┘
+                                             │
+                          ┌──────────────────┼──────────────────┐
+                          ▼                  ▼                  ▼
+                   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
+                   │UserDetailsSvc│  │PasswordEncoder│  │  JwtService  │
+                   └──────────────┘  └──────────────┘  └──────────────┘
+```
+
+### JWT Token Structure
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                      JWT TOKEN                          │
+├─────────────────┬─────────────────┬────────────────────┤
+│     HEADER      │     PAYLOAD     │     SIGNATURE      │
+│  {"alg":"HS256" │  {"sub":"user"  │   HMACSHA256(      │
+│   "typ":"JWT"}  │   "role":"ADMIN"│   base64(header)+  │
+│                 │   "exp":1234567}│   base64(payload)) │
+└─────────────────┴─────────────────┴────────────────────┘
+```
 
 ---
 
-## Spring_Security_Without_JWT2/SpringSecurityWithoutJwt 🚫🌐
+## 🛠️ Technologies
 
-**Project Description:**
+<div align="center">
 
-Another perspective on Spring Security without JWT. This project provides an additional approach to securing your applications without relying on JSON Web Tokens.
+| Technology | Version | Purpose |
+|:----------:|:-------:|:-------:|
+| <img src="https://skillicons.dev/icons?i=java" width="40"/> | 17+ | Programming Language |
+| <img src="https://skillicons.dev/icons?i=spring" width="40"/> | 3.x | Spring Boot Framework |
+| <img src="https://skillicons.dev/icons?i=mysql" width="40"/> | 8.0+ | Database |
+| <img src="https://skillicons.dev/icons?i=maven" width="40"/> | 3.6+ | Build Tool |
+| <img src="https://skillicons.dev/icons?i=postman" width="40"/> | Latest | API Testing |
+
+</div>
 
 ---
 
-## spring_security_live_session 🕐💻
+## 🚀 Getting Started
 
-**Project Description:**
+### Prerequisites
 
-Immerse yourself in the world of live sessions and real-time authentication and authorization. This interactive project offers hands-on experience and showcases the dynamic aspects of Spring Security.
+- Java JDK 17+
+- Maven 3.6+
+- MySQL Server
+- Postman (for API testing)
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Shubh2-0/Spring_Security.git
+cd Spring_Security
+
+# Choose a project
+cd SpringSecurityJwtWithRole
+
+# Configure database in application.properties
+# Update username, password, and database name
+
+# Run the application
+mvn spring-boot:run
+```
+
+### API Testing
+
+```bash
+# Register endpoint
+POST /api/auth/register
+{
+  "username": "user",
+  "password": "password",
+  "role": "USER"
+}
+
+# Login endpoint
+POST /api/auth/login
+{
+  "username": "user",
+  "password": "password"
+}
+
+# Protected endpoint (with JWT token)
+GET /api/protected
+Authorization: Bearer <your-jwt-token>
+```
 
 ---
 
+## 📚 Learning Path
 
-## Tools Used 🛠️
+```
+🔰 Beginner
+├── Spring_Security_1 (Basic Config)
+├── SpringSecurityWithoutJwt (Session-based)
+│
+🔵 Intermediate
+├── SpringSecurityAuthProviderWithoutJwt
+├── Custom Authentication Provider
+│
+🔴 Advanced
+├── SpringSecurityWithJwt (Token-based)
+├── SpringSecurityJwtWithRole (RBAC)
+├── SpringSecurityWithJwtCors (CORS)
+│
+🏆 Expert
+└── Build your own Security Architecture!
+```
 
-<table align="center">
-  <tr>
-    <td align="center" width="170">
-      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/java.png" width="48" height="48" alt="Java" />
-      <br>Java 
-    </td>
-    <td align="center" width="170">
-      <img src="https://github.com/Shubh2-0/WorkFolio/blob/main/README_IMAGES/springb.png" width="45" height="45" alt="sp" />
-      <br>Spring Boot
-    </td>
-    <td align="center" width="170">
-      <img src="https://github.com/Shubh2-0/WorkFolio/blob/main/README_IMAGES/springsecutity.png" width="45" height="45" alt="ss" />
-      <br>Spring Security
-    </td>
-    <td align="center" width="170">
-      <img src="https://imgs.search.brave.com/_WwEvOJNpeZ-lj6k6H0y-xs6DAIXgMDVzY7depwrySQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9qd3Qu/aW8vaW1nL3BpY19s/b2dvLnN2Zw.svg" width="45" height="45" alt="ss" />
-      <br>JWT
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="170">
-      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/postman.png" width="45" height="45" alt="pm" />
-      <br>Postman
-    </td>
-    <td align="center" width="170">
-      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/spring.png" width="45" height="45" alt="st" />
-      <br>STS
-    </td>
-    <td align="center" width="170">
-      <img src="https://github.com/Shubh2-0/Shubh2-0/blob/main/Images/github.png" width="45" height="45" alt="github" />
-      <br>Github
-    </td>
- </tr>
-</table>
+---
 
+## 🤝 Contributing
 
+Security is everyone's responsibility! Contributions welcome:
+
+- 🔐 Add new authentication patterns
+- 📖 Improve documentation
+- 🐛 Fix security vulnerabilities
+- 💡 Suggest best practices
+
+---
 
 ## 📬 Contact
 
-If you want to contact me, you can reach me through below handles.
-
- <p align="left">
-  <a href="https://www.linkedin.com/in/bhatishubham/" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" width="40px" alt="linkedin" /></a>&emsp;
-  <a title="shubhambhati226@gmail.com" href="mailto:shubhambhati226@gmail.com" target="_blank"><img align="center"  src="https://cdn-icons-png.flaticon.com/128/888/888853.png"  width="40px"   alt="mail-me" /></a>&emsp;
-  <a href="https://wa.me/+916232133187" target="blank"><img align="center" src="https://media2.giphy.com/media/Q8I2fYA773h5wmQQcR/giphy.gif" width="40px"  alt="whatsapp-me" /></a>&emsp;
-<a href="https://www.hackerrank.com/shubhambhati226?hr_r=1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" width="40px"  alt="whatsapp-me" /></a>&emsp; 
-		
-	
-	
-
- </p>
-
-<br>
-
 <div align="center">
-  <strong>Feel free to embark on your journey through these projects, explore their dedicated READMEs for detailed instructions, and contribute to the ever-evolving realm of Spring Security. We're here to support your quest for robust application security. 🚀🔐🌟🛠️
-</strong>
+
+**Shubham Bhati** - Java Developer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-bhati-787319213/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhambhati226@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+916232133187)
+
 </div>
 
+---
 
+<div align="center">
+
+### ⭐ Star this repository if it helped you secure your applications!
+
+**Keywords:** Spring-Security JWT Authentication Authorization RBAC OAuth2 Java Spring-Boot Security API-Security Token-Based-Auth
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
+
+</div>
